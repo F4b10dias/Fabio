@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zercício2</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		var op;
+		op = parseInt(prompt("Escolha uma cor: \n1-Azul \n2-Preto \n3-Vermelho"));
+
+		switch (op){
+			case 1:
+			document.write('<style type="text/css">body{background-color: blue;} #top{width:90%; height:100px; background-color: yellow; margin: 0 auto;}#container{width:90%; height:500px; background-color:black; margin: 0 auto;} </style>');
+			break;
+			case 2:
+			document.write('<style type="text/css">body{background-color: black;}#top{width:90%; height:100px; background-color: red; margin: 0 auto;}#container{width:90%; height:500px; background-color:darkred; margin: 0 auto;} </style>');
+			break;
+			case 3:
+			document.write('<style type="text/css">body{background-color: red;}#top{width:90%; height:100px; background-color: blue; margin: 0 auto;}#container{width:90%; height:500px; background-color:grey; margin: 0 auto;} </style>');
+			break;
+			default:
+			document.write('<body> ESSA OPÇÃO NÃO EXISTE!!!!</body><style type="text/css">body{background-color:black;color:red;font-size:100px;text-aling:center;margin-top:25%;}</estyle>');
+		}
+	</script>
+
+</body>
+<div id="top">
+	</div>
+	<br>
+	<div id="container">
+	</div>
+</html>	
